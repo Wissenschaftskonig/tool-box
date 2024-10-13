@@ -1,3 +1,9 @@
+"use client";
+
 export default function Home() {
-  return <div>hi</div>;
+  return (
+    <div>
+      <main className="h-screen">Main Page</main>
+    </div>
+  );
 }

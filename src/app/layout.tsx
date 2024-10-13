@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { centuryGothic } from "./styles/fonts";
+import { centuryGothic } from "../styles/fonts";
 import ThemeContextProvider from "@/components/ThemeContextProvider";
 
 export const metadata: Metadata = {
