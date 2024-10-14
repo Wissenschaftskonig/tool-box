@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`bg-bgPrimary dark:bg-black ${centuryGothic.className}`}>
+      <body className={`bg-white dark:bg-black ${centuryGothic.className}`}>
         <ThemeContextProvider>{children}</ThemeContextProvider>
       </body>
     </html>
